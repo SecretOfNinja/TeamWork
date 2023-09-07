@@ -1,0 +1,32 @@
+.box{
+width: 50%;
+height: 400px;
+box-sizing: border-box;
+margin: auto;
+background-color: blueviolet;
+border: black solid 10px;
+padding: 10px;
+}
+
+div{
+    
+    border: 2px solid black;
+    padding: 5px;
+    background-color: brown;
+
+}
+
+.topleft{
+    float: left;
+    
+}
+.topright{
+   float: right;
+}
+body{
+    background-color: brown;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

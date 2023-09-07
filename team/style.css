@@ -25,7 +25,15 @@ a {
     padding: 22px;
 }
 
-wrapper {
+.wrapper {
 
     background-color: #fff;
+}
+.item {
+    background: #f4f4f4;
+    border: #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }
