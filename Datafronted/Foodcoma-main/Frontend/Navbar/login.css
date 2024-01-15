@@ -1,0 +1,97 @@
+.login__img {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.login__img img {
+    width: 70%;
+    object-fit: contain;
+}
+
+.login__form {
+    padding: 50px;
+    background: #fe4c00;
+    position: relative;
+}
+
+.login__container {
+    box-shadow: rgba(17, 12, 46, 0.15);
+    margin-top: 50px;
+}
+
+.login__form .user {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50%, -9%);
+}
+
+.login__form .user img {
+    width: 100%;
+}
+
+.login__form h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.login__form {
+    width: 70%;
+    margin: auto;
+}
+
+.login__form input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: #fe4c00;
+    background: #fff;
+}
+
+.login__form input:focus {
+    outline: none;
+}
+
+.auth__btn {
+    background: #fff;
+    width: 100%;
+    color: #fe4c00 !important;
+}
+
+.login__form p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.login__form p a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 10px 10px;
+    background-color: #c9d2dc;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; 
+    width: 50%; 
+}
+
+.btn:hover {
+    background-color: #d81f1f;
+}
+

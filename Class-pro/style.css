@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.earth-card{
+    width: 300px;
+            box-shadow: 0 10px 8px rgba(56, 9, 9, 0.622);
+            text-align: center;
+            padding: 1px;
+            height: 200px;
+            width: 180px;
+            border-radius: 20px;
+            background: url(earth-picture/20181107_hlsp_opal_hst_wfc3-uvis_jupiter-2017a_color_globalmap2.jpg), rgb(142, 42, 42) 50% / cover no-repeat;
+            position:absolute;
+            animation: spin 30s linear alternate infinite;
+}
+@keyframes spin {
+     100%{background-position: 100%;}
+
+  }
+  
+button {
+    border-radius: 20px;
+    background: #000;
+    padding: 10px 20px;
+    background-color: #292219;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    
+}

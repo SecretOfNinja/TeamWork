@@ -1,0 +1,14 @@
+.description-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  background: beige;
+  border-radius: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.description-card-container p {
+  max-width: 250px;
+}
